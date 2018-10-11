@@ -1,5 +1,7 @@
 ### Prototyping, Evaluation, and Documentation
 
+----------------------------------------------
+
 ##### 1. https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122
 
 _* What is the question that the authors try to answer?_
@@ -30,6 +32,8 @@ EX:
 _* How convincing are the drawn conclusions?_
 
 He is not giving too much of an explanations and reasons for this experiment as well as more in dept, explanation on decisions for the languages and web frameworks used. But overall feeling I got that, he knows his goal.
+
+------------------------------------------------------
 
 ##### 2. https://www.codementor.io/garethdwyer/flask-vs-django-why-flask-might-be-better-4xs7mdf8v
 
