@@ -6,7 +6,7 @@
 Which language/framework has the fastest response time on handling requests: Node Express vs Python Flask vs Go vs Sparkjava vs Ruby Sinatra
 
 * What is their hypothesis/problem statement?
-To test/find out the best computing performance for making web server. 
+To test/find out the best computing performance for making web server.
 
 * Do they present an experiment with one or more prototypes?
 He uses one prototype/experiment where he applies the same Fibonacci calculation on each language.
