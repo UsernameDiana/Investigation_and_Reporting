@@ -1,5 +1,17 @@
 ### Benchmarking
 
+Task is to plan, setup, execute, and evaluate a small experiment
+concerning these three servers:
+
+
+http://139.59.132.185:8080
+
+http://192.81.216.124:8080
+
+http://128.199.180.131:8080
+
+---------------------
+
 _* Formulate a hypothesis/problem statement about behavior of response
 times of these three servers._
 
