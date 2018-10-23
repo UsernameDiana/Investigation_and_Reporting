@@ -96,14 +96,7 @@ PING 128.199.180.131 (128.199.180.131): 56 data bytes
 
 #### _* Conclusion_
 
-The further away the server is located, the higher the ping times is.
-
----------------------
-
-#### _* Discussion_
-
- What is measured?
-
- How is it measured?
-
- What could influence results?
+The further away the server is located, the higher the ping time is, but
+keeping in mind, that this is the conclusion in regards of these servers.
+There can be many other factors of response time, like quality of internet,
+quality of the devices and so on.
