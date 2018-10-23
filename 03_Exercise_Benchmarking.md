@@ -65,6 +65,9 @@ Copenhagen > Singapore = 9972.99 km
 
 3. Ping IP addresses and measure response times.
 
+`ping` is the reaction time of your connection, 
+how fast you get a response after you've sent out a request.
+
 Germany:
 ```terminal
 ➜  ~ ping 139.59.132.185
