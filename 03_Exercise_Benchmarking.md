@@ -1,8 +1,10 @@
-### Benchmarking
+## Prototyping & Evaluation
 
-Task is to plan, setup, execute, and evaluate a small experiment
-concerning these three servers:
+---------------------
 
+#### _* Hypothesis_
+
+Measure the response time of the tree servers located in different parts of the world.
 
 http://139.59.132.185:8080
 
@@ -12,23 +14,89 @@ http://128.199.180.131:8080
 
 ---------------------
 
-_* Formulate a hypothesis/problem statement about behavior of response
-times of these three servers._
+#### _* Plan_
 
-_* Plan an experiment, which measures response times of these three servers._
+1. Find the location of the servers.
+2. Distance from request to the servers location.
+3. Measure latency between my location and the server.
 
-_* Execute the experiment, which measures response times of these three servers._
+---------------------
 
-_* Evaluate your experiment and interpret the measurements and results._
+#### _* Execution of the plan_
 
-_* Discuss what you are measuring, how you are measuring, and what could
- influence your results., see Peter Sestoft “Microbenchmarks in Java and
- C#” https://www.itu.dk/people/sestoft/papers/benchmarking.pdf for inspiration_
+1. To find out where the servers are located I used https://www.iplocation.net/
 
---------------------
+```
+IP Address:
+139.59.132.185
+Country:
+Germany
+City:
+Frankfurt am Main
+```
+```
+IP Address:
+192.81.216.124
+Country:
+United States
+City:
+North Bergen
+```
+```
+IP Address:
+128.199.180.131
+Country:
+Singapore
+City:
+Singapore
+```
 
-Write a document that explains all of the above. That is, that formulates
- your hypothesis, that describes the experiment setup, that describes how
- you executed the experiment, that explains how to reproduce your
- experiment, and that collects, interprets, and discusses you measurement
- results.
+2. To calculate distance, I am using https://www.distancecalculator.net
+
+```
+Copenhagen > Frankfurt am Main = 671.98 km
+```
+```
+Copenhagen > North Bergen = 6188.02 km
+```
+```
+Copenhagen > Singapore = 9972.99 km
+```
+
+3. Ping IP addresses and measure response times.
+
+Germany:
+```terminal
+➜  ~ ping 139.59.132.185
+PING 139.59.132.185 (139.59.132.185): 56 data bytes
+64 bytes from 139.59.132.185: icmp_seq=0 ttl=54 time=20.638 ms
+64 bytes from 139.59.132.185: icmp_seq=1 ttl=54 time=23.658 ms
+64 bytes from 139.59.132.185: icmp_seq=2 ttl=54 time=23.000 ms
+```
+
+United States:
+```terminal
+➜  ~ ping 192.81.216.124
+PING 192.81.216.124 (192.81.216.124): 56 data bytes
+64 bytes from 192.81.216.124: icmp_seq=0 ttl=48 time=95.891 ms
+64 bytes from 192.81.216.124: icmp_seq=1 ttl=48 time=94.741 ms
+64 bytes from 192.81.216.124: icmp_seq=2 ttl=48 time=95.856 ms
+```
+
+Singapore:
+```terminal
+➜  ~ ping 128.199.180.131
+PING 128.199.180.131 (128.199.180.131): 56 data bytes
+64 bytes from 128.199.180.131: icmp_seq=0 ttl=38 time=276.836 ms
+64 bytes from 128.199.180.131: icmp_seq=1 ttl=38 time=386.634 ms
+64 bytes from 128.199.180.131: icmp_seq=2 ttl=38 time=276.049 ms
+```
+
+---------------------
+
+#### _* Conclusion_
+
+The further away the server is located, the higher the ping time is, but
+keeping in mind, that this is the conclusion in regards of these servers.
+There can be many other factors of response time, like quality of internet,
+quality of the devices and so on.
