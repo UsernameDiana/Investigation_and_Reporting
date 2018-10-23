@@ -22,7 +22,7 @@ http://128.199.180.131:8080
 
 ---------------------
 
-#### _* Execute the experiment._
+#### _* Execution of the plan_
 
 1. To find out where the servers are located I used https://www.iplocation.net/
 
@@ -94,13 +94,13 @@ PING 128.199.180.131 (128.199.180.131): 56 data bytes
 
 ---------------------
 
-#### _* Evaluate the experiment._
+#### _* Conclusion_
 
 The further away the server is located, the higher the ping times is.
 
 ---------------------
 
-#### _* Discussion._
+#### _* Discussion_
 
  What is measured?
 
