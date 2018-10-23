@@ -1,4 +1,4 @@
-### Prototyping & Evaluation
+## Prototyping & Evaluation
 
 ---------------------
 
@@ -12,6 +12,7 @@ http://192.81.216.124:8080
 
 http://128.199.180.131:8080
 
+---------------------
 
 #### _* Plan_
 
@@ -19,6 +20,7 @@ http://128.199.180.131:8080
 2. Distance from request to the servers location.
 3. Measure latency between my location and the server.
 
+---------------------
 
 #### _* Execute the experiment._
 
@@ -90,9 +92,13 @@ PING 128.199.180.131 (128.199.180.131): 56 data bytes
 64 bytes from 128.199.180.131: icmp_seq=2 ttl=38 time=276.049 ms
 ```
 
+---------------------
+
 #### _* Evaluate the experiment._
 
-As expected, the server located in Germany has the fastest response time.
+The further away the server is located, the higher the ping times is.
+
+---------------------
 
 #### _* Discussion._
 
