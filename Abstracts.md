@@ -1,30 +1,53 @@
-* Docker containers and VM
+## INVESTIGATION AND REPORTING - Blog Entry
 
-    state the problem
 
-    say why it is interesting
+### _Abstract Proposals:_
 
-    say what your solution achieves
+**Docker containers and Virtual Machines**
 
-    say what follows from your solution
+> _state the problem_ <br>
 
-* Continuous Integration and Git
 
-    state the problem
+> _say why it is interesting_ <br>
 
-    say why it is interesting
 
-    say what your solution achieves
+> _say what your solution achieves_ <br>
 
-    say what follows from your solution
 
-* DO and deployment
+> _say what follows from your solution_ <br>
 
-    state the problem
 
-    say why it is interesting
 
-    say what your solution achieves
+**Continuous Integration with CircleCI and Git**
 
-    say what follows from your solution
-    
+> _state the problem_ <br>
+
+
+> _say why it is interesting_ <br>
+
+
+> _say what your solution achieves_ <br>
+
+
+> _say what follows from your solution_ <br>
+
+
+
+**Digital Ocean and deployment**
+
+> _state the problem_ <br>
+
+
+> _say why it is interesting_ <br>
+
+
+> _say what your solution achieves_ <br>
+
+
+> _say what follows from your solution_ <br>
+
+
+***
+> **Authors:**
+> - Mikkel Ziemer
+> - Diana Strele
