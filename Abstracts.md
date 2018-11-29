@@ -54,19 +54,24 @@ to production automatically via CircleCI.
 [link to HackerNews CI chain](https://github.com/ProjectHackernewsGroup04/Ops#cicd-chain)
 
 
-**Digital Ocean and deployment**
+**Microservice architecture**
 
 > _state the problem_ <br>
-
+Monolithic applications are difficult to maintain as they grow. 
+We need another architecture to maintain ease of maintainance. 
 
 > _say why it is interesting_ <br>
-
+To achieve another architecture we'll have to think about software as individual modules. 
+This results in a different development process and new problems to solve. 
 
 > _say what your solution achieves_ <br>
-
+By using a microservice architecture, every application has its own responsibility. 
+This makes deployment of changes faster and independent from everything else.
+Also, this results in more configuration files, but they're way more concise, since every project has their own.
 
 > _say what follows from your solution_ <br>
-
+Dockrization ended up being easier, and the modularization resulted in an easy construction of 
+a docker-compose file for starting up dependency projects locally. 
 
 ***
 > **Authors:**
