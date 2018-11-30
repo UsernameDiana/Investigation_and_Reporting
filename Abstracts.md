@@ -10,15 +10,34 @@
 
 **Microservice architecture**
 
+_Version_2:_
+
 * Monolithic applications are difficult to maintain as they grow.
-We need another architecture to maintain ease of maintainance.
-* To achieve another architecture we'll have to think about software as individual modules.
-This results in a different development process and new problems to solve.
-* By using a microservice architecture, every application has its own responsibility.
-This makes deployment of changes faster and independent from everything else.
-Also, this results in more configuration files, but they're way more concise, since every project has their own.
-* Dockrization ended up being easier, and the modularization resulted in an easy construction of
-a docker-compose file for starting up dependency projects locally. 
+To achieve an architecture where application is structured as collections of services
+will result in a different development process.
+By using microservice architecture and thinking of software as individual modules
+we can ease the maintenance of the system.
+Modularization results in an easy construction and enables the continuous
+delivery/deployment of large, complex applications.
+
+_Version_1:_
+
+* Monolithic applications are difficult to maintain as they grow. We need
+another architecture to maintain ease of maintenance.
+* To achieve another architecture we'll have to think about software as
+individual modules. This results in a different development process and
+new problems to solve.
+* By using a microservice architecture, every application has its own
+responsibility. This makes deployment of changes faster and independent
+from everything else. Also, this results in more configuration files,
+but they're way more concise, since every project has their own.
+* Dockrization ended up being easier, and the modularization resulted in
+an easy construction of a docker-compose file for starting up dependency
+projects locally.
+
+------------
+
+_Other abstract proposals:_
 
 **Docker containers and Virtual Machines**
 
