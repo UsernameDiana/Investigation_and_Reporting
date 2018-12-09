@@ -71,7 +71,7 @@ components can be deployed, changed and redeployed independently.
 Having separate services also leads to less overlapping code conflicts
 and faster changes deployed to production.
 
-* _Reflect on how we use Microservices_
+* _Reflect on use of Microservices_
 
 During AP degree at Cphbusiness, we worked on developing applications in
 a monolithic approach. We followed three tier architecture and created
