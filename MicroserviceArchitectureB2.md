@@ -12,7 +12,7 @@ continuous delivery/deployment of large, complex applications._
 > **_09.12.2018_**
 
 > **Authors:**
-> - Mikkel Ziemer
+> - Mikkel Ziemer Højbjerg Jensen
 > - Diana Strele
 
 ### Introduction
@@ -86,6 +86,8 @@ Deciding on using microservice architecture for HackerNews project was
 done at the beginning of the project, in the first Sprint. We worked in
 a team of five developers on a system that needed continuous integration,
 deployment, multiple functionalities and tools to be implemented.
+As the software grows in size, it's a good practice to divide the
+software up into modules, that are decoupled from each other.
 Therefore, we chose microservice architecture, to avoid overlapping
 conflicts and promote independent services, that can be easily managed
 by different team members and wont conflict with each other’s work.
@@ -104,18 +106,23 @@ asked the users of microservice architecture, what they are using
 microservice for. As we stated earlier, when introducing the need for
 microservice architecture, that applications grow and become more
 complex. Therefore, scalability and faster deployment are the leading
-factors for using microservice architecture .
+factors for using microservice architecture.
+
 Another interesting choice is flexibility on choosing different tools
 and languages. This can be a great learning and experiment process for
 the developers as in this field continues curiosity and exploring is of
-great value.
+great value. Microservices provides ease to modify technology stack.
+Developers can try new technologies on a specific components of the service.
 
 During our development of HackerNews application, we started with three
 different services, `backend`, `frontend` and `ops`, that composed the
 application. This collection of three microservices ended up growing in
 less than three month, into collection of nine services. Each service
 responsible for their own task, each having their own Docker container
-and each implemented in different language.
+and each implemented in different language. According to [medium](https://medium.com/devopslinks/microservice-architecture-is-it-right-for-your-software-development-eaa951e3ec35),
+Netflix changed to microservices around 2012 as they where unable to
+build data centers to provide scalability. Today Netflix is using 500+
+microservices.
 
 When DZone asked, if using microservices, has made job easier, 80.1%
 agreed [(Link to survey graph)](https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/ms.png).
@@ -192,3 +199,6 @@ large-scale businesses have done already.
 > - Anne Marie Glen “[DZone Research] Microservices Priorities and Trends” (26.07.2018)
 > - Michael Bryzek “Designing Microservices Architecture the right way” (22.10.2018)
 > - Josh Evans “Mastering Chaos- a Netflix guide to Microservice” (22.02.2017)
+> - Medium Corporation "Microservice Architecture — Is It Right for Your Software Development?" (21.08.2018)
+> - Emily Reinhold "Rewriting Uber Engineering: The Opportunities Macroservices Provide" (20.04.2016)
+> - Tony Mauro of NGINX, Inc "Adopting Microservices at Netflix: Lessons for Architectural Design" (19.02.2015)
