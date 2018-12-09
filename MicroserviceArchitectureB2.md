@@ -97,7 +97,7 @@ microservice architecture. Almost 50% are using microservices.
 As mentioned earlier, many large companies already have switched to
 using this architecture.
 
-!(image)[https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/Screenshot%202018-12-07%20at%2012.11.18.png]
+![image](https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/Screenshot%202018-12-07%20at%2012.11.18.png)
 
 To clarify on why this architectural approach is a good practice, DZone
 asked the users of microservice architecture, what they are using
@@ -118,11 +118,11 @@ responsible for their own task, each having their own Docker container
 and each implemented in different language.
 
 When DZone asked, if using microservices, has made job easier, 80.1%
-agreed (link to survey graph). Using containers and virtualization to
+agreed ![image](link to survey graph). Using containers and virtualization to
 achieve automated operations, makes usage of microservice more
 convenient. 63% is using containers when working in microservice
 architecture, both in development and production, where 46.02% ensemble
-their containers via Docker Swarm (link to survey graph).
+their containers via Docker Swarm ![image](link to survey graph).
 
 * _Pros and Cons_
 
