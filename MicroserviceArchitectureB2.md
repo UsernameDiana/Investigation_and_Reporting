@@ -97,14 +97,14 @@ microservice architecture. Almost 50% are using microservices.
 As mentioned earlier, many large companies already have switched to
 using this architecture.
 
-!(image)[]
+!(image)[https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/Screenshot%202018-12-07%20at%2012.11.18.png]
 
 To clarify on why this architectural approach is a good practice, DZone
 asked the users of microservice architecture, what they are using
 microservice for. As we stated earlier, when introducing the need for
 microservice architecture, that applications grow and become more
-complex. Therefor, scalability and faster deployment are the leading
-factors for using microservice architecture (link to survey graph).
+complex. Therefore, scalability and faster deployment are the leading
+factors for using microservice architecture .
 Another interesting choice is flexibility on choosing different tools
 and languages. This can be a great learning and experiment process for
 the developers as in this field continues curiosity and exploring is of
