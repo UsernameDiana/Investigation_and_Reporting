@@ -118,11 +118,12 @@ responsible for their own task, each having their own Docker container
 and each implemented in different language.
 
 When DZone asked, if using microservices, has made job easier, 80.1%
-agreed ![image](link to survey graph). Using containers and virtualization to
+agreed [(Link to survey graph)](https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/ms.png).
+Using containers and virtualization to
 achieve automated operations, makes usage of microservice more
 convenient. 63% is using containers when working in microservice
 architecture, both in development and production, where 46.02% ensemble
-their containers via Docker Swarm ![image](link to survey graph).
+their containers via Docker Swarm [(Link to survey graph)](https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/ms-docker-swarm.png).
 
 * _Pros and Cons_
 
