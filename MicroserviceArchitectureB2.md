@@ -95,7 +95,7 @@ conflicts and promote independent services, that can be easily managed
 by different team members and wont conflict with each other’s work.
 
 DZone has recently made a survey that we came across while researching
-for this article [(Link to Dzone survey)](https://dzone.com/articles/dzone-research-microservices-priorities-and-trends).
+for this article [(Link to the DZone survey)](https://dzone.com/articles/dzone-research-microservices-priorities-and-trends).
 For this survey, DZone asks developers and organizations about using
 microservice architecture. Almost 50% are using microservices.
 As mentioned earlier, many large companies already have switched to
@@ -121,7 +121,7 @@ different services, `backend`, `frontend` and `ops`, that composed the
 application. This collection of three microservices ended up growing in
 less than three month, into collection of nine services. Each service
 responsible for their own task, each having their own Docker container
-and each implemented in different language. According to [medium](https://medium.com/devopslinks/microservice-architecture-is-it-right-for-your-software-development-eaa951e3ec35),
+and each implemented in different language. According to [Medium](https://medium.com/devopslinks/microservice-architecture-is-it-right-for-your-software-development-eaa951e3ec35),
 Netflix changed to microservices around 2012 as they where unable to
 build data centers to provide scalability. Today Netflix is using 500+
 microservices.
