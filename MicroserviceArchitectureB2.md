@@ -36,10 +36,12 @@ build an application as a collection of small services, each running on
 its own and are independently deployable, resulting in the development
 of systems that are scalable and flexible.
 
-To better reflect on this architectural style, during the development of
-HackerNews project, we implemented our system as microservices. The
-project consists of several services, implemented in different languages
-and each responsible for different parts of the HackerNews application.
+To better reflect on microservice architectural approach, during the development of
+[HackerNews](https://github.com/ProjectHackernewsGroup04) 
+project in Software Development BA degree. We implemented our system 
+as microservices. The project consists of several services, implemented 
+in different languages and each responsible for different parts of the 
+HackerNews application.
 Of course, this creates new problems that has to be solved. This
 includes, but is not exclusive to, new deployment strategies, new
 testing strategies and new integration strategies.
@@ -71,7 +73,7 @@ components can be deployed, changed and redeployed independently.
 Having separate services also leads to less overlapping code conflicts
 and faster changes deployed to production.
 
-* _Reflect on use of Microservices_
+* _Reflect on the use of Microservices_
 
 During AP degree at Cphbusiness, we worked on developing applications in
 a monolithic approach. We followed three tier architecture and created
@@ -93,7 +95,7 @@ conflicts and promote independent services, that can be easily managed
 by different team members and wont conflict with each other’s work.
 
 DZone has recently made a survey that we came across while researching
-for this article [(link to survey)](https://dzone.com/articles/dzone-research-microservices-priorities-and-trends).
+for this article [(Link to Dzone survey)](https://dzone.com/articles/dzone-research-microservices-priorities-and-trends).
 For this survey, DZone asks developers and organizations about using
 microservice architecture. Almost 50% are using microservices.
 As mentioned earlier, many large companies already have switched to
