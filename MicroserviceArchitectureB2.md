@@ -195,12 +195,12 @@ large-scale businesses have done already.
 
 ***
 > **Referenced Literature:**
-> - Martin Fowler “Microservices” (25.03.2014)
-> - Martin Fowler “MonolithFirst” (03.06.2015)
-> - Mike Wasson “Microservice architecture style” (13.11.2018)
-> - Anne Marie Glen “[DZone Research] Microservices Priorities and Trends” (26.07.2018)
-> - Michael Bryzek “Designing Microservices Architecture the right way” (22.10.2018)
-> - Josh Evans “Mastering Chaos- a Netflix guide to Microservice” (22.02.2017)
-> - Medium Corporation "Microservice Architecture — Is It Right for Your Software Development?" (21.08.2018)
-> - Emily Reinhold "Rewriting Uber Engineering: The Opportunities Macroservices Provide" (20.04.2016)
-> - Tony Mauro of NGINX, Inc "Adopting Microservices at Netflix: Lessons for Architectural Design" (19.02.2015)
+> - Martin Fowler “Microservices” (25.03.2014) ![link here](https://martinfowler.com/articles/microservices.html)
+> - Martin Fowler “MonolithFirst” (03.06.2015) ![link here](https://martinfowler.com/bliki/MonolithFirst.html)
+> - Mike Wasson “Microservice architecture style” (13.11.2018) ![link here](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
+> - Anne Marie Glen “DZone Research Microservices Priorities and Trends” (26.07.2018) ![link here](https://dzone.com/articles/dzone-research-microservices-priorities-and-trends)
+> - Michael Bryzek “Designing Microservices Architecture the right way” (22.10.2018) ![link here](https://www.youtube.com/watch?v=j6ow-UemzBc)
+> - Josh Evans “Mastering Chaos- a Netflix guide to Microservice” (22.02.2017) ![link here](https://www.youtube.com/watch?v=CZ3wIuvmHeM)
+> - Medium Corporation "Microservice Architecture — Is It Right for Your Software Development?" (21.08.2018) ![link here](https://medium.com/devopslinks/microservice-architecture-is-it-right-for-your-software-development-eaa951e3ec35)
+> - Emily Reinhold "Rewriting Uber Engineering: The Opportunities Macroservices Provide" (20.04.2016) ![link here](https://eng.uber.com/building-tincup/)
+> - Tony Mauro of NGINX, Inc "Adopting Microservices at Netflix: Lessons for Architectural Design" (19.02.2015) ![link here](https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
