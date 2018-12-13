@@ -1,6 +1,6 @@
 # Microservice Architecture
 
-_Monolithic applications are difficult to maintain as they grow.
+_![Monolithic applications](https://en.wikipedia.org/wiki/Monolithic_application) are difficult to maintain as they grow.
 To achieve an architecture where application is structured as
 collections of services will result in a different development process.
 By using microservice architecture and thinking of software as
@@ -38,7 +38,7 @@ of systems that are scalable and flexible.
 
 To better reflect on microservice architectural approach, during the development of
 [HackerNews](https://github.com/ProjectHackernewsGroup04) 
-project in Software Development BA degree. We implemented our system 
+project in Software Development BA degree, we implemented our system 
 as microservices. The project consists of several services, implemented 
 in different languages and each responsible for different parts of the 
 HackerNews application.
