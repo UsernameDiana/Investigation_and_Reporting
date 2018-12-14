@@ -204,9 +204,11 @@ architecture as of now. It has a single service accesing the database.
 
 In the future, if system would continue to grow and `Helge_api` would
 keep on swarming our application with posts. We would implement a seperate
-database just for `Helge_api`posts. This would speed up the application and
+database for `Helge_api`posts. This would speed up the application and
 also follow the characteristincs of microservices architecture with
 having decentrilazed data access.
+
+![image](https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/Screenshot%202018-12-14%20at%2012.59.54.png)
 
 ***
 > **Referenced Literature:**
