@@ -193,6 +193,21 @@ definitely something to consider. Nevertheless, there is always a
 possibility to change the architecture, as Netflix, Uber and other
 large-scale businesses have done already.
 
+* _Outlook Discussion and Future work_
+
+Initially our HackerNews application started with three microservices, 
+as requierements grew, so did the services. 
+In the system architecture diagram below, is displayed our applications
+architecture as of now. It has a single service accesing the database.
+
+![image](https://github.com/UsernameDiana/Investigation_and_Reporting/blob/master/images/SystemArchitectureDiagram.jpg)
+
+In the future, if system would continue to grow and `Helge_api` would
+keep on swarming our application with posts. We would implement a seperate
+database just for `Helge_api`posts. This would speed up the application and
+also follow the characteristincs of microservices architecture with
+having decentrilazed data access.
+
 ***
 > **Referenced Literature:**
 > - Martin Fowler “Microservices” (25.03.2014) ![link here](https://martinfowler.com/articles/microservices.html)
