@@ -17,7 +17,7 @@ continuous delivery/deployment of large, complex applications._
 
 ### Introduction
 
-As applications get larger and more complex, a ![monolithic](https://en.wikipedia.org/wiki/Monolithic_application) approach,
+As applications get larger and more complex, a [monolithic](https://en.wikipedia.org/wiki/Monolithic_application) approach,
 which is the traditional architectural style of building an application,
 can become problematic. In a single monolithic application, the
 application contains all the code of the business logic. If the
@@ -30,7 +30,7 @@ system. This can lead to drop of code and applications quality.
 #### Problem Statement
 
 Companies like Netflix, eBay, Amazon, Twitter have moved from monolithic
-to ![microservices architecture](https://en.wikipedia.org/wiki/Microservices), as microservices have many
+to [microservices architecture](https://en.wikipedia.org/wiki/Microservices), as microservices have many
 benefits for an Agile and DevOps teams. In essence, microservices help
 build an application as a collection of small services, each running on
 its own and are independently deployable, resulting in the development
